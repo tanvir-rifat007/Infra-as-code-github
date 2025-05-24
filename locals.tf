@@ -47,6 +47,7 @@ locals {
 
 
 
+
       "Infra-as-code-aws-services" = {
       description        = "Example product service"
       gitignore_template = "Go"
