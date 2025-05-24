@@ -35,6 +35,15 @@ locals {
       topics             = ["iac", "terraform"]
       visibility         = "public"
     }
+
+
+      "Infra-as-code-aws-services" = {
+      description        = "Example product service"
+      gitignore_template = "Go"
+      name               = "Infra-as-code-aws-services"
+      topics             = ["go","aws","ecs"]
+      visibility         = "public"
+    }
        
 
   }
