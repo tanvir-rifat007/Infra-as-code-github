@@ -36,6 +36,16 @@ locals {
       visibility         = "public"
     }
 
+    "Infra-as-code-terraform-product-service" = {
+      description        = "Automation for product services"
+      gitignore_template = "Terraform"
+      name               = "Infra-as-code-terraform-product-service"
+      topics             = ["aws", "terraform","service"]
+      visibility         = "public"
+    }
+
+
+
 
       "Infra-as-code-aws-services" = {
       description        = "Example product service"
