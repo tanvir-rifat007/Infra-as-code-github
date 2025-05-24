@@ -18,6 +18,23 @@ locals {
 
 
        }
+
+
+       "Infra-as-code-aws-network" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "Infra-as-code-aws-network"
+      topics             = ["iac", "terraform"]
+      visibility         = "public"
+    }
+
+    "Infra-as-code-aws-cluster" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "Infra-as-code-aws-cluster"
+      topics             = ["iac", "terraform"]
+      visibility         = "public"
+    }
        
 
   }
