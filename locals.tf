@@ -28,6 +28,15 @@ locals {
       visibility         = "public"
     }
 
+
+         "Infra-as-code-aws-network-2" = {
+      description        = "Automation for GitHub2"
+      gitignore_template = "Terraform2"
+      name               = "Infra-as-code-aws-network2"
+      topics             = ["iac2", "terraform2"]
+      visibility         = "public"
+    }
+
     "Infra-as-code-aws-cluster" = {
       description        = "Automation for GitHub"
       gitignore_template = "Terraform"
