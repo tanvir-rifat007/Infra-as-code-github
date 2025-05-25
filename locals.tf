@@ -31,9 +31,9 @@ locals {
 
          "Infra-as-code-aws-network-2" = {
       description        = "Automation for GitHub2"
-      gitignore_template = "Terraform2"
+      gitignore_template = "Terraform"
       name               = "Infra-as-code-aws-network2"
-      topics             = ["iac2", "terraform2"]
+      topics             = ["iac", "terraform"]
       visibility         = "public"
     }
 
