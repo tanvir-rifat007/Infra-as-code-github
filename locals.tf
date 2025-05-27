@@ -28,6 +28,15 @@ locals {
       visibility         = "public"
     }
 
+           "fem-fd-service-network" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "fem-fd-service-network"
+      topics             = ["iac", "terraform"]
+      visibility         = "public"
+    }
+
+
 
          "Infra-as-code-aws-network-2" = {
       description        = "Automation for GitHub2"
