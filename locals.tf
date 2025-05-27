@@ -71,6 +71,14 @@ locals {
       visibility         = "public"
     }
 
+      "fem-fd-service-db" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "fem-fd-service-db"
+      topics             = ["iac", "terraform"]
+      visibility         = "public"
+    }
+
     "Infra-as-code-terraform-product-service" = {
       description        = "Automation for product services"
       gitignore_template = "Terraform"
