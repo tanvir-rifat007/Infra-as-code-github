@@ -87,6 +87,13 @@ locals {
       visibility         = "public"
     }
 
+      "fem-fd-service-product-service" = {
+description        = "Automation for product services"
+      gitignore_template = "Terraform"
+      name               = "fem-fd-service-product-service"
+      topics             = ["aws", "terraform","service"]
+      visibility         = "public"
+    }
 
 
 
