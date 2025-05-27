@@ -63,10 +63,10 @@ locals {
       visibility         = "public"
     }
 
-         "fem-fd-service-cluster" = {
+         "fem-fd-service-cluster2" = {
       description        = "Automation for GitHub"
       gitignore_template = "Terraform"
-      name               = "fem-fd-service-cluster"
+      name               = "fem-fd-service-cluster2"
       topics             = ["iac", "terraform"]
       visibility         = "public"
     }
